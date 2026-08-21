@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title> Cogito Ergo Sum </title>
+        <meta charset="UTF-8">
+        <title> Could be weiqi </title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-
     <body>
-        <h1>
-            Hello From the Shell!
-        </h1>
-    </body>
-
+        <div class="header-section">
+        <h1> Try Weiqi/Go below! </h1>
+        </div>
+        <p>
+            Below you are able to play this simulator which is intended 
+            to be able to play a 9x9 game of Go or Weiqi.
+        </p>
+        <script src="board.js" defer></script>
+        <script>
+            const goBoard = new Board()
+        </script>
+    </body>  
 </html>
